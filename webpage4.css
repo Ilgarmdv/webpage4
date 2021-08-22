@@ -1,0 +1,1693 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    
+    
+}
+
+/* Up part of the header section */
+.upside-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:85px;
+    width:1140px;
+    padding:0 15px;
+    width:1140px;
+    margin:0 auto;
+    
+}
+
+
+.search-header{
+    width:213px;
+    height:42px;
+    background-color: #EBF5F5;
+    padding-left:15px;
+    border:0;
+}
+
+
+.header-search-icon{
+    height:42px;
+    background-color: #EBF5F5;
+    width:42px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.inputs-header{
+    display:flex;
+}
+
+
+.login-header{
+    width:160px;
+    height:42px;
+    background-color: #20d8da;
+    border:0;
+    margin-left:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.lock-header-icon{
+    display: none !important;
+}
+
+.logo img{
+    max-width:100%;
+}
+
+
+/*END OF UP PART OF HEADER*/
+
+/*down part of header*/
+.downside-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    height:70px;
+    width:1110px;
+    padding:0 15px;
+    
+}
+
+
+.left-side-downside-header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+}
+
+.left-side-list-items{
+    margin-left:30px;
+    font-size:120%;
+    position: relative;
+}
+
+
+
+.right-side-downside-header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-side-list-items{
+    margin-right:20px;
+}
+
+
+.home-header{
+    margin-left:-15px !important;
+}
+
+
+.fa-bars-left{
+    display:none !important;
+    color:grey;
+    font-size:200%;
+}
+
+
+.left-side-temporary{
+    display:none;
+}
+
+
+
+.fa-bars-right{
+    display:none !important;
+}
+
+
+.fa-angle-down{
+    color:grey;
+    position: absolute;
+    top:3px;
+    margin-left:2px;
+}
+.dropmenu{
+    position: relative;
+}
+.dropdown{
+    position:absolute;
+    z-index: 30;
+    width:160px;
+    font-size: 80%;
+    margin-top:10px;
+    background-color: #ffffff;
+    opacity:0;
+    visibility: hidden;
+    transition: 0.4s all;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    padding-left:15px;
+    color:black !important;
+
+}
+.dropdown p{
+    padding:10px 5px;
+}
+.dropdown p:hover{
+    color:#20D8DA;
+}
+.dropdown p:first-child{
+    border-bottom: 1px solid rgba(242, 244, 248, 0.7);
+}
+.dropmenu:hover .dropdown{
+    visibility:visible;
+    opacity:1;
+    margin-top:0px;
+}
+.dropdown-border{
+    border-bottom: 1px solid rgba(242, 244, 248, 0.7);
+}
+header .fa:hover{
+    color: #20D8DA;
+}
+header ul li:hover{
+    color: #20D8DA;
+}
+/*END  OF DOWN PART OF HEADER*/
+
+
+/*jumbotron*/
+
+.jumbotron{
+    background: url("https://colorlib.com/preview/theme/egames/img/bg-img/1.jpg") no-repeat center;
+    width:100%;
+    height:790px;
+    position: relative;
+    z-index:0;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+}
+.jumbotron-text-width{
+    width:1140px;
+    position: relative;
+    z-index: 12;
+}
+.jumbotron-text{
+    width:830px;
+    height:360px;
+    color:white;
+    padding-left:80px;
+    padding-right: 80px;
+    border-left: #20D8DA 2px solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position:relative;
+    margin-left:15px;
+    
+}
+.jumbotron-text:before{
+    background-color: black;
+    position: absolute;
+    width:100%;
+    height:100%;
+    content:"";
+    opacity:0.3;
+    left:0;
+}
+.jumbotron::before{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content:"";
+    opacity:0.6;
+    left:0;
+}
+.jumbotron-text h1{
+    font-size:400%;
+    line-height: 130px;
+    margin-top:-30px;
+    position: relative;
+}
+
+.jumbotron-text p{
+    line-height: 35px;
+}
+button:hover{
+    background-color: #000000;
+   
+}
+button{
+    color:white;
+}
+.jumbotron-button{
+    width:133px;
+    height:52px;
+    background-color: #20d8da;
+    border:0;
+    opacity: 1;
+    color:white;
+    font-size:105%;
+    z-index:15;
+    position: absolute;
+    margin-right:50px;
+    right:0;
+}
+.jumbotron-button:hover{
+    background-color: #000000;
+}
+
+/*End of Jumbotron*/
+
+
+
+
+/*Brand names div*/
+.template-brand-names div{
+    
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:100px;
+    
+}
+
+.template-brand-names{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    align-items: center;
+    margin:0 auto;
+    flex-wrap: wrap;
+    
+}
+.ps4-img{
+    width:196px;
+    height:55px;
+}
+.xbox-img{
+    width:179px;
+    height:55px;
+}
+.wii-img{
+    width:127px;
+    height:55px;
+}
+.brand-names-button{
+    width:160px;
+    height:50px;
+    background-color: #20d8da;
+    border:0;
+    margin-top: 26px;
+}
+.border-brand-names{
+    height:135px;
+    border-left:1px solid grey;
+}
+
+/*END OF BRAND NAMES*/
+
+
+/*This month's pick*/
+.month{
+    width:100%;
+    background-color: #0E0E0E;
+    height:830px;
+    padding-top:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.month-image{
+    width:228px;
+    height:387px;
+    overflow: hidden;
+}
+.month-images{
+    display: flex;
+    justify-content: space-around;
+    width:1200px;
+    margin:0 auto;
+}
+.month h1{
+    color:white;
+    font-size:200%;
+}
+.months-pick{
+    width:1110px;
+    margin:0 auto;
+    display: flex;
+    
+}
+.categories ul{
+    color:white;
+    font-size: 150%;
+    display: flex;
+    width: 1110px;
+    margin:65px auto 60px auto;
+}
+.categories ul li{
+    margin-right:50px;   
+}
+.categories ul li:first-child{
+    background-color: #20D8DA;
+    width:112px;
+    height:56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-14px;
+   
+       
+}
+.border-list{
+    width:1110px;
+    border-bottom: 1px solid white;
+    margin-top:-60px;
+    margin-bottom:60px;
+}
+.opacity-month{
+    width:calc(50% - 555px);
+    height:730px;
+    background:url("https://colorlib.com/preview/theme/egames/img/core-img/pattern.png") repeat;
+    opacity:1;
+    z-index:19;
+    position:absolute;
+    left:0;
+}
+.opacity-month::after{
+    content:"";
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    background-color: black;
+    z-index: 20;
+    opacity: 0.5;
+    
+}
+
+.opacity-month-right{
+    width:calc(50% - 555px);
+    height:730px;
+    background:url("https://colorlib.com/preview/theme/egames/img/core-img/pattern.png") repeat;
+    opacity:1;
+    z-index:19;
+    position:absolute;
+    right:0;
+}
+.opacity-month-right::after{
+    content:"";
+    width:100%;
+    height:100%;
+    position: absolute;
+    right:0;
+    background-color: black;
+    z-index: 20;
+    opacity: 0.5;
+    
+}
+.card-text-month h1{
+    font-size:125%;
+    color:white;
+    margin-top: 30px;
+}
+.card-text-month p{
+    color:White;
+    font-size: 90%;
+    margin-top:20px;
+}
+.adventure-month{
+    margin-left:30px;
+}
+
+.card-text-month{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    align-items: flex-start;
+}
+
+
+/*Month pick End*/
+
+/*Scroll down display start*/
+.container-scroll{
+    width:1112px;
+    height:790px;
+    padding-top:100px;
+    padding-bottom:100px;
+    display:flex;
+    justify-content: center;
+}
+.scroll-display{
+    background: url("https://colorlib.com/preview/theme/egames/img/core-img/pattern2.png") repeat;
+    width:100%;
+    height:790px;
+    display:flex;
+    justify-content: center;
+    
+}
+.scroll-display-left{
+    width:370px;
+    height:590px;
+    margin-right:2px;
+    overflow-y: scroll;
+}
+.scroll-display-left::-webkit-scrollbar{
+    display:none;
+    width:8px;
+}
+
+.scroll-display-left::-webkit-scrollbar-thumb{
+    background: #20D8DA;
+    border-radius: 5px;
+}
+.scroll-display-left::-webkit-scrollbar-track{
+    background: #ffffff;
+    
+}
+.scroll-display-left:hover::-webkit-scrollbar{
+    display:block !important;
+}
+
+.scroll-display-right{
+    width:740px;
+    height:590px;
+    background: url("https://colorlib.com/preview/theme/egames/img/bg-img/45.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+    background-color: #20D8DA !important;
+}
+.mini-scroll-elements img{
+    width:80px !important;
+    height:80px !important;
+}
+.scrol-text p{
+    font-size: 110%;
+    line-height: 30px;
+}
+.brand-names-paragraphs{
+    font-size: 70% !important;
+}
+.mini-scroll-elements{
+    height:124px;
+    display: flex;
+    align-items: center;
+    background-color: #232323;
+    margin-bottom:2px;
+    color:white;
+    padding-left:20px;
+
+}
+.mini-scroll-elements:hover{
+    background-color: #20D8DA;
+}
+.scrol-text{
+    padding-left:20px;
+}
+.ratings{
+    width:50px;
+    height:40px;
+    background-color: #20D8DA;
+    font-size: 90%;
+    padding:8px 5px 8px 5px;
+    margin-left:15px;
+}
+.ratings-div{
+    align-self: start;
+    margin-top:25px;
+}
+.active-button{
+    background-color: #424242;
+}
+.play-start{
+    position: relative;
+}
+.fa-play{
+    color:white;
+    font-size: 150%;
+    position: relative;
+    
+}
+.play-start::before{
+    background-color: #d13027;
+    position: absolute;
+    width:74px;
+    height:74px;
+    opacity:0.8;
+    border-radius: 50%;
+    content:"";
+    left:-29px;
+    top:-25px;
+}
+.play-start:hover:before{
+    background-color: #20D8DA;
+    opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.latest-articles{
+    background: url("https://colorlib.com/preview/theme/egames/img/bg-img/5.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1061px;
+    width:100%;
+    padding-top:100px;
+    padding-bottom:100px;
+    position: relative;
+    margin-bottom:2px;
+    overflow: hidden;
+}
+.left-side-articles-text{
+    width:430px;
+}
+.latest-articles::before{
+    background: url("https://colorlib.com/preview/theme/egames/img/core-img/pattern2.png") repeat;
+    width: 100%;
+    height: 1061px;
+    content:"";
+    position: absolute;
+    opacity:0.1;
+    left:0;
+    top:0;
+    z-index:100;
+    
+}
+.container{
+    margin:0 auto;
+    width:1140px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left-side-articles-card img{
+    width:278px;
+    height:222px;
+    
+
+}
+.left-side-articles-card{
+    display: flex;
+    margin-bottom:30px;
+    position: relative;
+    z-index: 600;
+    width:735px;
+}
+.left-side-articles-card:hover .image-scale{
+    transform: scale(1.1);
+}
+
+
+
+.img-scale-overflow{
+    overflow: hidden;
+    width:278px;
+    height: 222px;
+    margin-right:30px;
+}
+
+.opacity{
+    background: #20d8da;
+    position: absolute;
+    content: "";
+    width:278px;
+    height:222px;
+    opacity: 0.5;
+    top:0;
+    left:0;
+    display: none;
+}
+.left-side-articles-card:hover .opacity{
+    display: block;
+}
+
+
+
+
+
+.articles-text-left{
+    font-size:210%;
+    color:white;
+    margin-bottom:70px;
+}
+
+.articles-text-right{
+    font-size:210%;
+    color:white;
+    margin-bottom:70px;
+}
+.left-side-articles-text p:first-child{
+    color:white;
+    font-size:150%;
+}
+.left-side-articles-text p:nth-child(2){
+    font-size:120%;
+    color:#20D8DA;
+    margin-top:15px;
+    margin-bottom:23px;
+}
+.left-side-articles-text p:nth-child(3){
+    color:grey;
+    font-size:105%;
+    
+}
+.comments2{
+    margin-left:40px;
+    font-size:85%;
+    color:grey;
+}
+.side-img{
+    position:absolute;
+    left:80px;
+    bottom:-100px;
+}
+.right-side-articles{
+    width:380px;
+}
+.articles-ps4-add{
+    position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width:100%;
+    padding-bottom:20px;
+    background-color: #000000;
+    padding-top:100px;
+    color:white;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    width:1100px;
+    margin:0 auto;
+
+}
+
+.header{
+    font-size: 170%;
+}
+.container-1 div ul{
+    margin-top:60px;
+}
+.games img{
+    margin-bottom:60px;
+}
+.line-height-footer{
+    line-height: 35px;
+}
+footer ul li:hover{
+    color:#20d8da
+}
+.left-left-copyright:hover{
+    color:#20d8da;
+}
+.colorlib:hover{
+    color: #20d8da;
+}
+
+.container-1{
+    margin:0 auto;
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.two-divs-footer-first{
+    display: flex;
+    justify-content: space-between;
+    width:47%;
+}
+.two-divs-footer-second{
+    display: flex;
+    justify-content: space-between;
+    width:47%;
+}
+.games{
+    width:265px;
+}
+.game-reviews{
+    width:190px;
+}
+.usefull-links{
+    width:160px;
+}
+.whats-new{
+    width:140px;
+}
+.copyright-div{
+    display: flex;
+    width:1100px;
+    justify-content: space-between;
+    margin:0 auto;
+    padding-left:50px;
+    align-items: center;
+    height:100px;
+}
+.copyright-div ul{
+    display: flex;
+}
+.left-side-copyright{
+    width:550px;
+}
+.right-side-copyright{
+    width:370px;
+}
+.copyright{
+    width:100%;
+    background-color: black;
+    color:white;
+    height:100px;
+    
+}
+.copyright-div ul li{
+    margin-left:20px;
+
+}
+.copyright-div ul li:hover{
+    color:#20d8da;
+    
+}
+.copyright-text:hover{
+    color:#20d8da;
+}
+.colorlib:hover{
+    color:#20d8da;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1199px) and (min-width:991.98px){
+    .upside-header{
+        width:960px;
+    }
+    .downside-header{
+        width:930px;
+    }
+    .template-brand-names{
+        width:850px;
+    }
+    .month-images img{
+        width:277px;
+        height:470px;
+        
+    }
+    .img-div-2,.img-div-4{
+        margin-left:30px;
+        margin-right:30px;
+    }
+    .month-images{
+        width:905px;
+    }
+    .months-pick{
+        width:930px;
+    }
+    .categories ul{
+        width:930px;
+    }
+    .border-list{
+        width:940px;
+    }
+    .opacity-month, .opacity-month-right{
+        width:calc(50% - 465px);
+    }
+    .mini-scroll-elements{
+        width:310px;
+        height:177px;
+        padding:20px 15px;
+    }
+    .container-scroll{
+        width:932px;
+        
+    }
+    .container{
+        width:935px;
+    }
+    .left-side-articles-text{
+        width:360px;
+    }
+    .left-side-articles-card{
+        width:615px;
+    }
+    .right-side-articles{
+        width:300px;
+    }
+    .articles-text-right{
+        width:300px;
+    }
+    .articles-ps4-add{
+        width:300px;
+    }
+    .articles-ps4-add img{
+        width:300px;
+    }
+    .side-img{
+        bottom:-100px;
+        left:50px;
+    }
+    .container-1{
+        width:850px;
+    }
+    .two-divs-footer-first{
+        width:47%;
+    }
+    .two-divs-footer-second{
+        width:47%;
+    }
+    .games{
+        width:200px;
+    }
+    .game-reviews{
+        width:170px;
+    }
+    .usefull-links{
+        width:150px;
+    }
+    .whats-new{
+        width:150px;
+    }
+    .copyright-div{
+        
+        width:930px;
+        
+    }
+    
+    .left-side-copyright{
+        width:430px;
+    }
+    
+   
+   
+}
+
+@media screen and (max-width:1199.98px) and (min-width:1198.98px){
+    
+    .jumbotron-text{
+        width:690px;
+        height:462px;
+    }
+    .jumbotron-text h1{
+        line-height: 80px;
+        
+    }
+    .jumbotron-text-width{
+        width:900px;
+        position: relative;
+        z-index: 12;
+    }
+    
+}
+@media screen and (max-width:1198.98px) and (min-width:991.98px){
+    
+    .jumbotron-text{
+        height:360px;
+        width:690px;
+    }
+    .jumbotron{
+        height:700px;
+    }
+    .jumbotron-text h1{
+        font-size: 300%;
+        
+    }
+    .jumbotron-text-width{
+        width:990px;
+    }
+    
+}
+@media screen and (max-width:990.98px) and (min-width:767.98px){
+    
+    .jumbotron-text{
+        height:261.3px;
+        width:690px;
+    }
+    .jumbotron{
+        height:600px;
+    }
+    .jumbotron-text h1{
+        line-height: 60px;
+        font-size:205%;
+        
+    }
+    .jumbotron-text-width{
+        width:700px;
+        position: relative;
+        z-index: 12;
+    }
+    
+}
+@media screen and (max-width:767.98px) and (min-width:766.98px){
+    
+    .jumbotron-text{
+        height:525px;
+        width:510px;
+    }
+    .jumbotron-text h1{
+        line-height: 80px;
+        
+    }
+    
+}
+
+
+@media screen and (max-width:991.98px) and (min-width:767px){
+    .upside-header{
+        width:720px;
+    }
+    .downside-header{
+        width:690px;
+    }
+    .template-brand-names{
+        width:700px;
+    }
+    .month-images img{
+        width:246px;
+        height:418px;   
+    }
+    
+    .img-div-4{
+        display:none;
+    }
+    .img-div-5{
+        display: none;
+    }
+    .month-images{
+        width:100%;
+    }
+    
+    .months-pick{
+        width:695px;
+    }
+    .categories ul{
+        width:695px;
+    }
+    .border-list{
+        width:695px;
+    }
+    .opacity-month, .opacity-month-right{
+        width:calc(50% - 347px);
+    }
+    .mini-scroll-elements{
+        width:345px;
+        height:124px;
+        padding:20px 15px;
+    }
+    .container-scroll{
+        width:694px;
+        
+    }
+    .scroll-display-right{
+        width: 365px;
+        height:400px;
+    }
+    .scroll-display-left{
+        height:400px;
+    }
+    .mini-scroll-elements p{
+        font-size: 90%;
+    }
+    .container{
+        width:695px;
+        flex-wrap: wrap;
+    }
+    .left-side-articles-text{
+        width:395px;
+    }
+    .left-side-articles-card{
+        width:695px;
+    }
+    .right-side-articles{
+        width:335px;
+        margin:100px auto 0 auto;
+        
+        
+    }
+    .articles-text-right{
+        width:335px;
+    }
+    .articles-ps4-add{
+        width:335px;
+    }
+    .side-img{
+        width: 264px;
+        bottom:-70px;
+        left:120px;
+    }
+    .add-image{
+        width:335px;
+    }
+    
+    .latest-articles{
+        height:2010px;
+    }
+    .latest-articles::before{
+        height:2010px;
+    }
+    .container-1{
+        width:700px;
+        flex-wrap: wrap;
+    }
+    .two-divs-footer-first{
+        width:100%;
+    }
+    .two-divs-footer-second{
+        width:100%;
+    }
+    .games{
+        width:330px;
+    }
+    .game-reviews{
+        width:320px;
+    }
+    .usefull-links{
+        width:360px;
+        margin-top:60px;
+    }
+    .whats-new{
+        width:320px;
+        margin-top:60px;
+    }
+    .copyright-div{
+        
+        width:770px;
+        
+    }
+    
+    .left-side-copyright{
+        width:300px;
+    }
+    
+
+    
+}
+@media screen and (max-width:767px) and (min-width:576px){
+    .upside-header{
+        width:540px;
+    }
+    .search-header{
+        width:158px;
+    }
+    .downside-header{
+        width:510px;
+    }
+    .jumbotron{
+        height:450px;
+    }
+    .jumbotron-text{
+        height:187px;
+        width:510px;
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    .jumbotron-text h1{
+        line-height: 80px;
+        font-size: 150%;
+        
+    }
+    .jumbotron-text p{
+        line-height: 20px;
+        
+    }
+    .jumbotron-button{
+        width:80px;
+        height:34px;
+        font-size:100%;
+        margin-right:10px;
+    }
+    .jumbotron-text-width{
+        width:560px;
+    }
+    .month-images img{
+        width:335px;
+        height:569px;
+    }
+    .month-images{
+        width:100%;
+        overflow: hidden;
+    }
+    .img-div-2{
+        margin-left:30px;
+        margin-right:30px;
+    }
+    .img-div-4{
+        display:none;
+    }
+    .img-div-5{
+        display: none;
+    }
+    .month-images{
+        width:100%;
+    }
+    
+    .months-pick{
+        width:510px;
+    }
+    .categories ul{
+        width:510px;
+    }
+    .border-list{
+        width:510px;
+    }
+    
+
+
+    .month h1{
+        
+        font-size:150%;
+        
+    }
+    
+    .categories ul{
+        
+        font-size: 100%;
+       
+    }
+    .categories ul li:first-child{
+        margin-top:-20px;
+       
+           
+    }
+    
+    .container-scroll{
+        width:510px;
+        flex-wrap: wrap;
+        
+    }
+    .scroll-display{
+        height:900px;
+    }
+    .scroll-display-left{
+        width:100%;
+        height:400px;
+        
+    }
+    .scroll-display-right{
+        width:510px;
+        height:300px;
+        margin-left:-2px;
+        
+        
+    }
+    .mini-scroll-elements{
+        width:100%;
+        min-height:124px;
+        height:auto;
+        font-size:90%;
+    }
+    .container{
+        width:510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-side-articles, .left-side-articles-cards, .left-side-articles-card{
+        width:510px;
+    }
+    .left-side-articles-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-scale{
+        width:510px !important;
+        height:408px !important;
+    }
+    .img-scale-overflow{
+        width:510px;
+        height:408px;
+        margin-bottom:30px;
+    }
+    .opacity{
+        width: 510px;
+        height: 408px;
+    }
+    .left-side-articles-text{
+        width:510px;
+    }
+   
+    .latest-articles::before{
+        height:3480px;
+    }
+    .right-side-articles{
+        width:510px;
+        margin:100px auto 0 auto;
+        
+        
+    }
+    .articles-text-right{
+        width:510px;
+    }
+    .articles-ps4-add{
+        width:510px;
+    }
+    .side-img{
+        width: 408px;
+        left:140px;
+        bottom:-110px;
+        
+    }
+    .add-image{
+        width:510px;
+    }
+    
+    .latest-articles{
+        height:3480px;
+    }
+    .container-1{
+        width:460px;
+        flex-wrap: wrap;
+    }
+    .two-divs-footer-first{
+        width:100%;
+    }
+    .two-divs-footer-second{
+        width:100%;
+    }
+    .games{
+        width:240px;
+    }
+    .game-reviews{
+        width:200px;
+    }
+    .usefull-links{
+        width:240px;
+        margin-top:60px;
+    }
+    .whats-new{
+        width:200px;
+        margin-top:60px;
+    }
+    .copyright-div{
+        
+        width:570px;
+        
+    }
+    
+    .left-side-copyright{
+        width:250px;
+    }
+    .right-side-copyright{
+        width:350px;
+    }
+
+    
+    
+    
+}
+@media screen and (max-width:575px) and (min-width:479px){
+    .search-header{
+        width:118px;
+    }
+}
+@media screen and (max-width:576px){
+    .upside-header{
+        width:100%;
+    }
+    .downside-header{
+        width:100%;
+    }
+    .jumbotron-text{
+        height:50%;
+        width:92%;
+        margin-left:15px;
+        margin-right:15px;
+        padding-left:10px;
+        padding-right: 10px;
+        
+        
+    }
+    .jumbotron-text h1{
+        line-height: 85px;
+        font-size: 150%;
+        
+    }
+    .jumbotron-text p{
+        line-height: 30px;
+        font-size:90%;
+    }
+    
+    
+    .jumbotron-button{
+        width:80px;
+        height:34px;
+        font-size: 90%;
+        margin-right:10px;
+    }
+    .month-images img{
+        width:235px;
+        height:399px;
+    }
+    .month-images{
+        width:100%;
+        overflow: hidden;
+    }
+    .img-div-2{
+        margin-left:30px;
+        margin-right:30px;
+    }
+    .img-div-4{
+        display:none;
+    }
+    .img-div-5{
+        display: none;
+    }
+    .month-images{
+        width:100%;
+    }
+    
+    .months-pick{
+        width:510px;
+    }
+    .categories ul{
+        width:510px;
+    }
+    .border-list{
+        width:510px;
+    }
+    
+
+
+    .month h1{
+        
+        font-size:150%;
+        
+    }
+    
+    .categories ul{
+        
+        font-size: 100%;
+       
+    }
+    .categories ul li:first-child{
+        margin-top:-20px;
+       
+           
+    }
+
+
+    .container-scroll{
+        width:95%;
+        flex-wrap: wrap;
+        
+    }
+    .scroll-display{
+        height:900px;
+    }
+    .scroll-display-left{
+        width:100%;
+        height:400px;
+        
+    }
+    .scroll-display-right{
+        width:99.5%;
+        height:300px;
+        margin-left:-2px;
+        
+        
+    }
+    .mini-scroll-elements{
+        width:100%;
+        min-height:124px;
+        height:auto;
+        font-size:90%;
+    }
+
+
+
+    .container{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-side-articles, .left-side-articles-cards, .left-side-articles-card{
+        width:100%;
+    }
+    .left-side-articles-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-scale{
+        width:100% !important;
+        height:auto !important;
+        object-fit: cover;
+    }
+    .img-scale-overflow{
+        width:95%;
+        height:auto;
+        margin-bottom:30px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-left:2.5%;
+    }
+    .opacity{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .left-side-articles-text{
+        width:95%;
+        margin-left:2.5%;
+    }
+   
+    .latest-articles::before{
+        height:100%;
+    }
+    .right-side-articles{
+        width:94%;
+        margin-left:3%;
+        margin:100px auto 0 auto;
+        
+        
+    }
+    .articles-text-right{
+        width:94%;
+        margin-left:3%;
+    }
+    .articles-ps4-add{
+        width:94%;
+        margin-left:3%;
+    }
+    .side-img{
+        width: 80%;
+        bottom:-70px;
+        
+        
+    }
+    .add-image{
+        object-fit: cover;
+        width:100%;
+        height:auto;
+    }
+    
+    .latest-articles{
+        height:auto;
+    }
+    .container-1{
+        width:95%;
+        flex-wrap: wrap;
+    }
+    .two-divs-footer-first{
+        width:95%;
+        flex-wrap: wrap;
+    }
+    .two-divs-footer-second{
+        width:95%;
+        flex-wrap: wrap;
+    }
+    .games{
+        width:95%;
+        margin-bottom: 60px;
+    }
+    .game-reviews{
+        width:95%;
+        
+    }
+    .usefull-links{
+        width:95%;
+        margin-top:60px;
+    }
+    .whats-new{
+        width:95%;
+        margin-top:60px;
+    }
+    .copyright-div{
+        
+        width:97%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        margin:0 0;
+        padding-left:15px;
+        
+    }
+    
+    .left-side-copyright{
+        width:100%;
+    }
+    .right-side-copyright{
+        width:100%;
+    }
+    
+
+}
+@media screen and (max-width:479px){
+    .search-header{
+        width:78px;
+    }
+    .login-header{
+        width:30px;
+    }
+}
+@media screen and (max-width:767px){
+    .lock-header-icon{
+        display: block !important;
+    }
+    .login-text{
+        display:none;
+    }
+    .left-side-temporary{
+        display:block ;
+        margin-right:20px;
+    }
+    .template-brand-names{
+        width:150px;
+    }
+    .ps4{
+        width:142px;
+        height:40px;
+    }
+    .wii{
+        width:92.3px;
+        height:40px;
+    }
+    .xbox{
+        width:130px;
+        height:40px;
+    }
+    .border-brand-names{
+        display: none !important;
+    }
+    .template-brand-names div{
+        height:125px;
+    }
+        
+    
+    
+}
+@media screen and (max-width:767px) and (min-width:479px){
+    .login-header{
+        width:50px;
+    }
+}
+
+@media screen and (max-width:991.98px) and (min-width:990.98px){
+    .left-side-list-items{
+        display:none;
+    }
+    .fa-bars-left{
+        display:block !important;
+    }
+    .fa-bars-right{
+        display:none !important;
+    }
+    .jumbotron-text{
+        height:462px;
+        width:690px;
+    }
+    .jumbotron-text h1{
+        line-height: 80px;
+        
+    }
+    .jumbotron-text-width{
+        width:700px;
+        position: relative;
+        z-index: 12;
+    }
+}
+@media screen and (max-width:990.98px){
+    .left-side-temporary{
+        display:block ;
+        margin-right:40px;
+    }
+    
+    .fa-bars-left{
+        display:none ;
+    }
+    .fa-bars-right{
+        display:block !important;
+        font-size:200%;
+        color:grey;
+    }
+    .right-side-list-items{
+        display:none ;
+    }
+    .left-side-list-items{
+        display: none !important;
+    }
+    .left-side-temporary-ul{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:990.98px) and (min-width:767px){
+    .left-side-temporary{
+        display:block ;
+        margin-right:40px;
+    }
+    
+}
+
+
